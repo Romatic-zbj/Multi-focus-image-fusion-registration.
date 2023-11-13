@@ -1,14 +1,19 @@
 # Multi-focus-image-fusion-registration.
 Implemention of the paper: When Misaligned Multi-focus Image Fusion Meets Deep Homography Estimation
 
-dataset format:
-V-1---------
-      pair01
-           image 1
-           image 2
-      pair02
-      ...
-      pair40
-V-2----------
+dataset format:  
+V-1
+---------
+- pair01
+  - image 1
+  - image 2
+- pair02
+  - image 1
+  - image 2
+- pair03
+  - image 1
+  - image 2
 ...
-V-3----------
+- pair40
+  - image 1
+  - image 2
